@@ -16,5 +16,11 @@
             "depNameTemplate": "org.keycloak:keycloak-parent",
             "datasourceTemplate": "maven"
         }
-    ]
+    ],
+    "docker-compose": {
+        "enabled": false
+    },
+    "docker": {
+        "enabled": false
+    }
 }

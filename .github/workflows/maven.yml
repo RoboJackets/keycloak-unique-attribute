@@ -6,6 +6,9 @@ on:
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: ./unique-attribute-validator-provider
 
     runs-on: ubuntu-latest
 

@@ -1,5 +1,5 @@
 # unique-attribute-validator-provider
-FROM maven:3.8.1-openjdk-17-slim AS unique-attribute-validator-provider
+FROM maven:3.8.5-openjdk-17-slim AS unique-attribute-validator-provider
 
 WORKDIR /app
 

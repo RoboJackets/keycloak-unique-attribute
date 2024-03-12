@@ -20,7 +20,7 @@
     "docker-compose": {
         "enabled": false
     },
-    "docker": {
+    "dockerfile": {
         "enabled": false
     }
 }

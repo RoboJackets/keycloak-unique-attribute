@@ -22,5 +22,13 @@
     },
     "dockerfile": {
         "enabled": false
-    }
+    },
+    "packageRules": [
+        {
+            "matchManagers": [
+                "github-actions"
+            ],
+            "rangeStrategy": "replace"
+        }
+    ]
 }
